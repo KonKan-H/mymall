@@ -5,4 +5,7 @@ package com.zzh;
  * @Author: zzh
  */
 public interface IErrorCode {
+    long getCode();
+    
+    String getMessage();
 }

@@ -1,8 +1,13 @@
 package com.zzh.mallsecurity.annotation;
 
+import java.lang.annotation.*;
+
 /**
  * @Date: 2020/12/7 15:08
  * @Author: zzh
  */
-public interface CacheException {
+@Documented
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CacheException {
 }
